@@ -2,9 +2,9 @@
   "id": "task-run-20260916-070529-task-def-20260916-065428-remove-duplicates-488dd-a99705bb",
   "job_run_id": "job-run-20260916-065656-job-20260916-065353-c-c2104381-263b35bb",
   "task_definition_id": "task-def-20260916-065428-remove-duplicates-488ddd21",
-  "status": "RUNNING",
+  "status": "DONE",
   "created_at": "2026-09-16T07:05:29+00:00",
-  "updated_at": "2026-09-16T07:05:29+00:00",
+  "updated_at": "2026-09-16T07:06:50+00:00",
   "legacy_task_id": "task-20260916-065428-remove-duplicates-fbc23c91",
   "attempt": 1,
   "assigned_agent": "codex",
@@ -13,13 +13,29 @@
   "lease_expires_at": "",
   "queued_at": "",
   "started_at": "2026-09-16T07:05:29+00:00",
-  "completed_at": "",
+  "completed_at": "2026-09-16T07:06:50+00:00",
   "last_error": "",
-  "commit_refs": [],
-  "branch_name": "",
-  "git_dirty": false,
-  "git_snapshot_captured_at": "",
-  "artifacts": [],
-  "checkpoint_ids": [],
+  "commit_refs": [
+    "8f197ccee5d8fe5f1e8029d634fec1c539da73a7",
+    "ba83a8b333b6ef3493ab5964fe1fa521a7fd1a2b"
+  ],
+  "branch_name": "feature/list-utils",
+  "git_dirty": true,
+  "git_snapshot_captured_at": "2026-09-16T07:06:50+00:00",
+  "artifacts": [
+    ".loom/tasks/task-20260916-065428-remove-duplicates-fbc23c91/agent-events.jsonl",
+    ".loom/tasks/task-20260916-065428-remove-duplicates-fbc23c91/artifacts.json",
+    ".loom/tasks/task-20260916-065428-remove-duplicates-fbc23c91/context.md",
+    ".loom/tasks/task-20260916-065428-remove-duplicates-fbc23c91/decision.md",
+    ".loom/tasks/task-20260916-065428-remove-duplicates-fbc23c91/git-snapshot.json",
+    ".loom/tasks/task-20260916-065428-remove-duplicates-fbc23c91/logs.txt",
+    ".loom/tasks/task-20260916-065428-remove-duplicates-fbc23c91/previous-results.md",
+    ".loom/tasks/task-20260916-065428-remove-duplicates-fbc23c91/prompt.md",
+    ".loom/tasks/task-20260916-065428-remove-duplicates-fbc23c91/result.md",
+    ".loom/tasks/task-20260916-065428-remove-duplicates-fbc23c91/troubleshooting.md"
+  ],
+  "checkpoint_ids": [
+    "checkpoint-20260916-070650-task-completed-remove-duplicates-a8d94bc2"
+  ],
   "review_required_reason": ""
 }
