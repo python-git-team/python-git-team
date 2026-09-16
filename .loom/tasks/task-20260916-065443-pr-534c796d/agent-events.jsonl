@@ -1,2 +1,0 @@
-{"id": "event-59f4f90cf7be", "type": "foreground_session_started", "message": "Foreground task session started.", "created_at": "2026-09-16T07:07:24+00:00", "agent": "codex", "task_id": "task-20260916-065443-pr-534c796d"}
-{"id": "event-4e161d251674", "type": "foreground_session_review_required", "message": "PR #4 생성 및 Issue #3 연결 완료; 팀원 리뷰와 승인, 의견 반영 대기", "created_at": "2026-09-16T07:18:23+00:00", "agent": "codex", "task_id": "task-20260916-065443-pr-534c796d"}

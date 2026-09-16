@@ -1,2 +1,0 @@
-{"id": "event-4d72ff5ae69f", "type": "foreground_session_started", "message": "Foreground task session started.", "created_at": "2026-09-16T06:56:57+00:00", "agent": "codex", "task_id": "task-20260916-065406-issue-639e3628"}
-{"id": "event-adb2479db22a", "type": "foreground_session_done", "message": "GitHub Issue #3을 생성하고 리스트 유틸 구현 계약과 검증 기준을 확정했다.", "created_at": "2026-09-16T07:05:03+00:00", "agent": "codex", "task_id": "task-20260916-065406-issue-639e3628"}
