@@ -1,0 +1,35 @@
+{
+  "id": "task-20260916-065443-pr-534c796d",
+  "job_id": "job-20260916-065353-c-c2104381",
+  "title": "리스트 유틸 PR과 리뷰 반영 완료",
+  "description": "검증된 feature/list-utils를 origin에 push하고 Issue와 연결된 PR을 작성한다. PR 본문에 What/Why/How와 Closes #이슈번호를 포함하고, 팀원 리뷰를 받은 뒤 최소 한 번 수정 또는 답글로 반영해 병합 가능한 상태를 만든다.",
+  "status": "PENDING",
+  "created_at": "2026-09-16T06:54:43+00:00",
+  "updated_at": "2026-09-16T06:54:43+00:00",
+  "order_index": 3,
+  "assigned_agent": "",
+  "depends_on": [
+    "task-20260916-065428-remove-duplicates-fbc23c91"
+  ],
+  "expected_output": "원격 feature/list-utils 브랜치와 Issue 연결 PR URL, 실질적인 팀원 리뷰, 작성자의 수정 또는 답글 반영 기록이 남는다.",
+  "done_condition": "PR 본문에 What/Why/How와 Closes #이슈번호가 있고, 최소 1명 승인 및 실질 리뷰가 존재하며, 리뷰에 대한 수정 커밋 또는 답글이 기록되고 필수 검증이 통과한다.",
+  "in_scope": "feature/list-utils push, PR 생성, Issue 연결, 팀원 리뷰 요청, 리뷰 반영, PR 검증 기록",
+  "out_of_scope": "본인 PR 자체 승인, main 직접 push, conflict 실습, git revert 실습, 두 번째 PR",
+  "validation_hint": "원격 브랜치와 PR URL을 확인하고 PR 본문 필수 항목, Issue 연결, 승인, 실질 리뷰, 리뷰 반영 기록, 검사 결과를 Loom 결과에 남긴다.",
+  "required_docs": [
+    "docs/team_docs/mission.md",
+    "docs/team_docs/mem_c.md"
+  ],
+  "memory_refs": [],
+  "document_outputs": [],
+  "document_output_exceptions": [],
+  "run_attempts": 0,
+  "last_error": "",
+  "commit_refs": [],
+  "branch_name": "",
+  "git_dirty": false,
+  "git_snapshot_captured_at": "",
+  "artifacts": [],
+  "source_proposal_id": "",
+  "source_prompt": ""
+}
