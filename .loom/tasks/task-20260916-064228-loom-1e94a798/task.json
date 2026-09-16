@@ -3,9 +3,9 @@
   "job_id": "job-20260916-064218-job-03d13a57",
   "title": "Loom과 미션 폴더 구조 초기화",
   "description": "현재 feature/list-utils 브랜치에서 Loom 메타데이터와 통제 에이전트 파일을 보존하고, 미션이 요구한 src/docs/team 기본 폴더 구조를 추적 가능하게 만들며, 기존 team_docs 변경사항을 컨벤션에 맞춰 커밋한다.",
-  "status": "RUNNING",
+  "status": "DONE",
   "created_at": "2026-09-16T06:42:28+00:00",
-  "updated_at": "2026-09-16T06:42:51+00:00",
+  "updated_at": "2026-09-16T06:46:49+00:00",
   "order_index": 1,
   "assigned_agent": "codex",
   "depends_on": [],
@@ -24,12 +24,24 @@
   "run_attempts": 0,
   "last_error": "",
   "commit_refs": [
-    "50e36cdc750985b4e77679857e0c943f34a4d1e6"
+    "50e36cdc750985b4e77679857e0c943f34a4d1e6",
+    "6ac6d490addbc7ee1f3671de50619be01cb99a06"
   ],
   "branch_name": "feature/list-utils",
   "git_dirty": true,
-  "git_snapshot_captured_at": "2026-09-16T06:42:51+00:00",
-  "artifacts": [],
+  "git_snapshot_captured_at": "2026-09-16T06:46:49+00:00",
+  "artifacts": [
+    ".loom/tasks/task-20260916-064228-loom-1e94a798/agent-events.jsonl",
+    ".loom/tasks/task-20260916-064228-loom-1e94a798/artifacts.json",
+    ".loom/tasks/task-20260916-064228-loom-1e94a798/context.md",
+    ".loom/tasks/task-20260916-064228-loom-1e94a798/decision.md",
+    ".loom/tasks/task-20260916-064228-loom-1e94a798/git-snapshot.json",
+    ".loom/tasks/task-20260916-064228-loom-1e94a798/logs.txt",
+    ".loom/tasks/task-20260916-064228-loom-1e94a798/previous-results.md",
+    ".loom/tasks/task-20260916-064228-loom-1e94a798/prompt.md",
+    ".loom/tasks/task-20260916-064228-loom-1e94a798/result.md",
+    ".loom/tasks/task-20260916-064228-loom-1e94a798/troubleshooting.md"
+  ],
   "source_proposal_id": "",
   "source_prompt": ""
 }
