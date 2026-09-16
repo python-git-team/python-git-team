@@ -1,0 +1,35 @@
+{
+  "id": "task-20260916-064228-loom-1e94a798",
+  "job_id": "job-20260916-064218-job-03d13a57",
+  "title": "Loom과 미션 폴더 구조 초기화",
+  "description": "현재 feature/list-utils 브랜치에서 Loom 메타데이터와 통제 에이전트 파일을 보존하고, 미션이 요구한 src/docs/team 기본 폴더 구조를 추적 가능하게 만들며, 기존 team_docs 변경사항을 컨벤션에 맞춰 커밋한다.",
+  "status": "RUNNING",
+  "created_at": "2026-09-16T06:42:28+00:00",
+  "updated_at": "2026-09-16T06:42:51+00:00",
+  "order_index": 1,
+  "assigned_agent": "codex",
+  "depends_on": [],
+  "expected_output": "Loom 초기화 파일, src/docs/team 폴더 골격, team_docs 문서, macOS 임시 파일 제외 규칙이 커밋된다.",
+  "done_condition": "loom validate --strict가 통과하고, 필수 디렉터리가 존재하며, .DS_Store를 제외한 현재 변경사항이 컨벤션 커밋에 포함되고 git status에 커밋 대상 변경이 남지 않는다.",
+  "in_scope": ".loom/, AGENTS.md, CLAUDE.md, .gitignore, docs/team_docs/, src/, team/ 기본 구조 및 관련 Git 커밋",
+  "out_of_scope": "리스트 유틸 함수 구현, 다른 팀원의 담당 파일 내용 작성, push와 PR 생성",
+  "validation_hint": "loom validate --strict; 디렉터리 구조 확인; git diff --check; git status --short; git log -2 --oneline",
+  "required_docs": [
+    "docs/team_docs/mission.md",
+    "docs/team_docs/mem_c.md"
+  ],
+  "memory_refs": [],
+  "document_outputs": [],
+  "document_output_exceptions": [],
+  "run_attempts": 0,
+  "last_error": "",
+  "commit_refs": [
+    "50e36cdc750985b4e77679857e0c943f34a4d1e6"
+  ],
+  "branch_name": "feature/list-utils",
+  "git_dirty": true,
+  "git_snapshot_captured_at": "2026-09-16T06:42:51+00:00",
+  "artifacts": [],
+  "source_proposal_id": "",
+  "source_prompt": ""
+}

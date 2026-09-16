@@ -1,0 +1,14 @@
+{
+  "id": "job-20260916-064218-job-03d13a57",
+  "title": "프로젝트 협업 기반 구성",
+  "goal": "Loom 작업공간을 초기화하고 미션에서 요구한 기본 폴더 구조와 팀 미션 문서를 현재 브랜치에 커밋한다.",
+  "status": "RUNNING",
+  "created_at": "2026-09-16T06:42:18+00:00",
+  "updated_at": "2026-09-16T06:42:51+00:00",
+  "context_refs": [],
+  "task_ids": [
+    "task-20260916-064228-loom-1e94a798"
+  ],
+  "branch_name": "feature/list-utils",
+  "checkpoint_ids": []
+}

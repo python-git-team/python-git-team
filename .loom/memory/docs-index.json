@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-16T06:42:28+00:00",
+  "docs_paths": [
+    "docs"
+  ],
+  "documents": [
+    {
+      "id": ".loom/memory/README.md",
+      "title": "Loom Memory",
+      "path": ".loom/memory/README.md",
+      "source": "memory",
+      "document_type": "memory",
+      "updated_at": "2026-09-16T15:41:14+09:00",
+      "size_bytes": 202
+    },
+    {
+      "id": ".loom/memory/categories.json",
+      "title": "{",
+      "path": ".loom/memory/categories.json",
+      "source": "memory",
+      "document_type": "memory",
+      "updated_at": "2026-09-16T15:41:14+09:00",
+      "size_bytes": 1484
+    },
+    {
+      "id": ".loom/memory/principles.md",
+      "title": "Principles",
+      "path": ".loom/memory/principles.md",
+      "source": "memory",
+      "document_type": "principles",
+      "updated_at": "2026-09-16T15:41:14+09:00",
+      "size_bytes": 82
+    },
+    {
+      "id": "docs/team_docs/mem_a.md",
+      "title": "Team Member A Mission",
+      "path": "docs/team_docs/mem_a.md",
+      "source": "repository_docs",
+      "document_type": "docs",
+      "updated_at": "2026-09-16T11:21:55+09:00",
+      "size_bytes": 3170
+    },
+    {
+      "id": "docs/team_docs/mem_b.md",
+      "title": "Team Member B Mission",
+      "path": "docs/team_docs/mem_b.md",
+      "source": "repository_docs",
+      "document_type": "docs",
+      "updated_at": "2026-09-16T11:21:55+09:00",
+      "size_bytes": 2676
+    },
+    {
+      "id": "docs/team_docs/mem_c.md",
+      "title": "Team Member C Mission",
+      "path": "docs/team_docs/mem_c.md",
+      "source": "repository_docs",
+      "document_type": "docs",
+      "updated_at": "2026-09-16T11:21:55+09:00",
+      "size_bytes": 2385
+    },
+    {
+      "id": "docs/team_docs/mem_d.md",
+      "title": "Team Member D Mission",
+      "path": "docs/team_docs/mem_d.md",
+      "source": "repository_docs",
+      "document_type": "docs",
+      "updated_at": "2026-09-16T11:21:55+09:00",
+      "size_bytes": 3415
+    },
+    {
+      "id": "docs/team_docs/mission.md",
+      "title": "Python Git 협업 프로젝트 Mission",
+      "path": "docs/team_docs/mission.md",
+      "source": "repository_docs",
+      "document_type": "docs",
+      "updated_at": "2026-09-16T11:21:55+09:00",
+      "size_bytes": 7052
+    }
+  ],
+  "path": "/Users/hongyongjae/Desktop/python-git-team/.loom/memory/docs-index.json"
+}

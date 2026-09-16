@@ -1,0 +1,19 @@
+{
+  "before": {
+    "available": true,
+    "branch_name": "feature/list-utils",
+    "commit_sha": "50e36cdc750985b4e77679857e0c943f34a4d1e6",
+    "dirty": true,
+    "staged_files": [],
+    "modified_files": [],
+    "untracked_files": [
+      ".DS_Store",
+      ".loom/",
+      "AGENTS.md",
+      "CLAUDE.md",
+      "docs/"
+    ],
+    "captured_at": "2026-09-16T06:42:51+00:00"
+  },
+  "after": null
+}
