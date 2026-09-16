@@ -1,0 +1,19 @@
+{
+  "before": {
+    "available": true,
+    "branch_name": "feature/list-utils",
+    "commit_sha": "79de97972c82de6616e4298e31140ebc83bf4d69",
+    "dirty": true,
+    "staged_files": [],
+    "modified_files": [
+      ".loom/events.jsonl",
+      ".loom/job-runs/job-run-20260916-065656-job-20260916-065353-c-c2104381-263b35bb/job-run.json",
+      ".loom/task-definitions/task-def-20260916-065443-pr-9036777c/task-definition.json"
+    ],
+    "untracked_files": [
+      ".loom/task-runs/task-run-20260916-070724-task-def-20260916-065443-pr-9036777c-9c71dccd/"
+    ],
+    "captured_at": "2026-09-16T07:07:24+00:00"
+  },
+  "after": null
+}
