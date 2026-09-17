@@ -2,13 +2,13 @@ from datetime import datetime
 
 
 def format_date(date_text: str) -> str:
-    """'YYYY-MM-DD'의 형식 문ㅈ열을 한국어 날짜 표기로 전환한다.
+    """'YYYY-MM-DD' 형식 문자열을 한국어 날짜 표기로 전환한다.
 
     Args:
-        date_text: 'YYYY-MM-DD' 형식의 문자열. 월/일은 두자리여야한다.
+        date_text: 'YYYY-MM-DD' 형식의 문자열. 월/일은 두 자리여야 한다.
 
     Returns:
-        '2026년 09월 14일'형태의 문자열.
+        '2026년 09월 14일' 형태의 문자열.
 
     Raises:
         ValueError: date_text가 형식에 맞지 않을 경우.
