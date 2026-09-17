@@ -2,7 +2,7 @@
 
 
 def remove_duplicates(items):
-    """처음 등장한 순서를 유지하며 중복을 제거한 새 리스트를 반환한다."""
+    """처음 등장한 순서를 유지하며 중복을 제거한 새 리스트를 반환."""
     return list(dict.fromkeys(items))
 
 
