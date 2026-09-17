@@ -3,6 +3,10 @@
 /AGENTS.md
 /CLAUDE.md
 
+# Local mission references and empty team placeholder
+/docs/team_docs/
+/team/.gitkeep
+
 # macOS
 .DS_Store
 
