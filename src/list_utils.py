@@ -1,8 +1,8 @@
-"""Utilities for working with lists."""
+"""리스트 작업에 사용하는 유틸리티."""
 
 
 def remove_duplicates(items):
-    """Return a new list without duplicates while preserving input order."""
+    """처음 등장한 순서를 유지하며 중복을 제거한 새 리스트를 반환한다."""
     return list(dict.fromkeys(items))
 
 
