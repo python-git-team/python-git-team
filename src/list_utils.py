@@ -1,7 +1,12 @@
 """리스트 작업에 사용하는 유틸리티."""
 
+from collections.abc import Hashable, Iterable
+from typing import TypeVar
 
-def remove_duplicates(items):
+T = TypeVar("T", bound=Hashable)
+
+
+def remove_duplicates(items: Iterable[T]) -> list[T]:
     """처음 등장한 순서를 유지하며 중복을 제거한 새 리스트를 반환."""
     return list(dict.fromkeys(items))
 
