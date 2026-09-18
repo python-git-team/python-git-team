@@ -19,4 +19,10 @@ D가 제시하고 `main`에 병합된 날짜값 `2026-09-17`을 남겼다. D 쪽
 - Python 구문 검사와 충돌 마커 부재 확인 → 통과
 - `git -c core.whitespace=cr-at-eol diff --check` → 통과
 
-해결한 코드는 C 브랜치의 merge commit에 기록한다. 원격 push와 PR 병합은 별도 단계에서 진행한다.
+## 게시 현황
+
+- C 작업 Issue: [#15](https://github.com/python-git-team/python-git-team/issues/15)
+- 충돌 해결 PR: [#16](https://github.com/python-git-team/python-git-team/pull/16) (`feature/c-conflict-test` → `main`)
+- D의 선행 변경: [PR #12](https://github.com/python-git-team/python-git-team/pull/12)
+
+충돌 해결 커밋 `7dbbc10`을 원격에 push하고 PR을 열었다. PR 리뷰와 병합은 남아 있다.
