@@ -18,4 +18,4 @@ def format_date(date_text: str) -> str:
     return date.strftime("%Y년 %m월 %d일")
 
 if __name__ == "__main__":
-    print(format_date("2026-09-18"))
+    print(format_date("2026-09-17"))
