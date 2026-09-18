@@ -1,2 +1,1 @@
-# python-git-team
-conflict test
+conflict-test
