@@ -5,3 +5,5 @@ def reverse_string(text: str) -> str:
 
 if __name__ == "__main__":
     print(reverse_string("hello"))
+    print(reverse_string(""))
+    print(reverse_string("한글"))
