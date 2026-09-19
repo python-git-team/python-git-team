@@ -1,3 +1,15 @@
+# Local agent workflow
+/.loom/
+/AGENTS.md
+/CLAUDE.md
+
+# Local mission references and placeholder files
+/docs/team_docs/
+*.gitkeep
+
+# macOS
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
