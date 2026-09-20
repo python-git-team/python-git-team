@@ -41,16 +41,27 @@
 - C
 
 ### 상황
-<문제가 무엇이었는지>
+Day 3 실습을 위해 `src/list_utils.py`에 임시 주석을 추가한 커밋
+`d619824`를 `feature/c-revert` 원격 브랜치에 Push했다.
+이미 공유한 커밋의 이력을 삭제하지 않고 변경 내용만 안전하게 되돌려야 했다.
 
 ### 시도한 명령/절차
-<git ...>
+```bash
+git log -1 --oneline
+git revert d6198240eec28ac38b305bf0a2fc25e24a28d14b
+git push
+git log --oneline -3
+python3 src/list_utils.py
+```
 
 ### 결과
-<무엇이 어떻게 해결됐는지, 주의할 점>
+`0355681` revert 커밋이 새로 생성되어 원격 브랜치에 Push됐다.
+기존 커밋과 revert 커밋이 모두 Git 이력에 남았고, 임시 주석은 제거됐다.
+`list_utils.py`를 실행한 결과 `[1, 2, 3, 4]`가 출력되어 정상 작동을 확인했다.
 
 ### 왜 이 방법을 선택했는가(Why)
-<선택 이유>
+이미 원격에 공유한 커밋이므로 이력을 다시 쓰는 `reset`과 강제 Push 대신
+변경을 취소하는 새 커밋을 만드는 `git revert`를 사용했다.
 
 ---
 
