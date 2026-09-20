@@ -407,6 +407,14 @@ feature 브랜치 정리
 ## 11. 파일 소유권
 
 파일별 소유자는 `AGENTS.md`의 소유권 표를 기준으로 한다. 이 문서에서는 절차만 정의한다.
+파일별 소유자는 아래와 같다. (미션 역할 분담 기준)
+
+| 담당 | 파일 |
+| :--- | :--- |
+| A | `src/string_utils.py`, `README.md` |
+| B | `src/math_utils.py`, `docs/CONTRIBUTING.md` |
+| C | `src/list_utils.py`, `docs/conflict-resolution.md` |
+| D | `src/date_utils.py`, `docs/troubleshooting-log.md`, `SUBMISSION.md` |
 
 - 자신의 담당 파일만 직접 수정한다.
 - 다른 팀원 파일에 수정이 필요하면 **Issue 또는 PR Review로 전달**한다.
