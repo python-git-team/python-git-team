@@ -12,5 +12,4 @@ def remove_duplicates(items: Iterable[T]) -> list[T]:
 
 
 if __name__ == "__main__":
-    # git revert 실습을 위한 임시 출력입니다.
     print(remove_duplicates([1, 2, 2, 3, 3, 4]))
