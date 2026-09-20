@@ -22,4 +22,17 @@ def calculate_average(numbers: Sequence[float]) -> float:
 
 
 if __name__ == "__main__":
-    print(calculate_average([1, 2, 3, 4]))
+    import unittest
+
+    class TestCalculateAverage(unittest.TestCase):
+        def test_integers(self):
+            self.assertEqual(calculate_average([1, 2, 3, 4]), 2.5)
+
+        def test_floats(self):
+            self.assertAlmostEqual(calculate_average([1.5, 2.5]), 2.0)
+
+        def test_empty_raises(self):
+            with self.assertRaises(ValueError):
+                calculate_average([])
+
+    unittest.main()
