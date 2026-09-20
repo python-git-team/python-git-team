@@ -36,3 +36,4 @@ if __name__ == "__main__":
                 calculate_average([])
 
     unittest.main()
+    git reset --soft 실습 
