@@ -15,7 +15,6 @@
 | `docs/CONTRIBUTING.md` | 평상시에 지켜야 할 협업 규칙과 절차 | B |
 | `docs/conflict-resolution.md` | 실제로 발생한 충돌 사례와 해결 과정 | C |
 | `docs/troubleshooting-log.md` | 명령 실습(amend / reset / revert / stash) 기록 | D (공동 편집) |
-| `AGENTS.md` | AI 에이전트용 공통 규칙, 파일 소유권 | 공통 |
 | `README.md` | 프로젝트 소개 | A |
 
 이 문서는 **규칙**만 담는다. 개별 사례 기록은 위 표에 따라 해당 문서로 넘긴다.
@@ -406,7 +405,6 @@ feature 브랜치 정리
 
 ## 11. 파일 소유권
 
-파일별 소유자는 `AGENTS.md`의 소유권 표를 기준으로 한다. 이 문서에서는 절차만 정의한다.
 파일별 소유자는 아래와 같다. (미션 역할 분담 기준)
 
 | 담당 | 파일 |
