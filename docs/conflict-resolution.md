@@ -2,14 +2,14 @@
 
 ## 충돌 상황
 
-B의 `feature/b-conflict-test` 브랜치에서
+김성훈의 `feature/b-conflict-test` 브랜치에서
 README.md의 첫번째줄을 작성하고 main에 먼저 병합했다.
 
-A의 `docs/readme-init` 브랜치는
+차종민의 `docs/readme-init` 브랜치는
 main에 B의 변경이 병합되기 전에 생성되었으며,
 같은 README.md의 첫번째줄을 작성했다.
 
-A의 브랜치를 main과 병합하는 과정에서
+차종민의 브랜치를 main과 병합하는 과정에서
 같은 영역의 변경 내용이 충돌했다.
 
 ## 충돌 내용
@@ -26,8 +26,8 @@ conflict-test
 
 ## 관련 PR
 
-- A PR : (https://github.com/python-git-team/python-git-team/pull/18)
-- B PR : (https://github.com/python-git-team/python-git-team/pull/20)
+- 차종민 PR : (https://github.com/python-git-team/python-git-team/pull/18)
+- 김성훈 PR : (https://github.com/python-git-team/python-git-team/pull/20)
 
 ## 해결
 
