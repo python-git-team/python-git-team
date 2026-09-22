@@ -1,3 +1,39 @@
+# conflict #1 - README.md 파일
+
+## 충돌 상황
+
+김성훈의 `feature/b-conflict-test` 브랜치에서
+README.md의 첫번째줄을 작성하고 main에 먼저 병합했다.
+
+차종민의 `docs/readme-init` 브랜치는
+main에 B의 변경이 병합되기 전에 생성되었으며,
+같은 README.md의 첫번째줄을 작성했다.
+
+차종민의 브랜치를 main과 병합하는 과정에서
+같은 영역의 변경 내용이 충돌했다.
+
+## 충돌 내용
+
+README.md의 첫번째 줄에서 충돌이 발생
+
+```readme
+<<<<<<< HEAD
+# 친구 3~5명과 함께 프로그램 만드는 법 연습하기
+=======
+conflict-test
+>>>>>>> origin/main
+```
+
+## 관련 PR
+
+- 차종민 PR : (https://github.com/python-git-team/python-git-team/pull/18)
+- 김성훈 PR : (https://github.com/python-git-team/python-git-team/pull/20)
+
+## 해결
+
+충돌이 나는 부분에서 필요없는 코드를 충돌마커와 함께 지우고 다시 커밋을 하고 푸쉬한 다음 pr을 올려 머지하였습니다. 
+
+
 # Conflict #2 — 날짜 유틸 Python 파일
 
 ## 충돌 발생
