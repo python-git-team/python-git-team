@@ -3,7 +3,7 @@
 ## 시나리오: git commit --amend
 ### 참여자
 
-- 차종민
+- 차종민 (문자열 유틸 / README 담당)
 
 ### 상황
 
@@ -28,7 +28,7 @@ git commit --amend -m "chore: src파일에 __init__.py 생성"
 
 ## 시나리오: git reset --soft HEAD~1
 ### 참여자
-- B
+- 김성훈 (숫자 유틸 / CONTRIBUTING 담당)
 
 ### 상황
 `feature/b-reset-practice` 브랜치에서 `src/math_utils.py`를 수정한 뒤 커밋했는데, 커밋 메시지를 팀 규칙(`type: subject`)에 맞지 않게 작성했다.
@@ -70,7 +70,7 @@ git commit -m "refactor: math_utils.py 수정 (reset --soft 실습)"
 
 ## 시나리오: git revert
 ### 참여자
-- C
+- 홍용재 (리스트 유틸 / 충돌 해결 문서 담당)
 
 ### 상황
 Day 3 실습을 위해 `src/list_utils.py`에 임시 주석을 추가한 커밋
@@ -99,7 +99,7 @@ python3 src/list_utils.py
 
 ## 시나리오: git stash / git stash pop
 ### 참여자
-- D
+- 손재현 (날짜 유틸 / 트러블슈팅 및 SUBMISSION 담당)
 
 ### 상황
 feature/d-date-example 브랜치에서 date_utils.py 수정 중, main 최신 상태를 확인해야 해서 커밋 없이 다른 브랜치로 이동해야 하는 상황
